@@ -23,19 +23,19 @@ This dataset contains sales transactions from three different branches of Amazon
 | rating | Rating | FLOAT(2, 1) | 
 
 ### Approach Used
-- *Data Wrangling:* This is the first step where inspection of data is done to make sure NULL values and missing values are detected and data replacement methods are used to replace missing or NULL values.
+- **Data Wrangling:** This is the first step where inspection of data is done to make sure NULL values and missing values are detected and data replacement methods are used to replace missing or NULL values.
 1.1 Build a database
 1.2 Create a table and insert the data.
 1.3 Select columns with null values in them. There are no null values in our database as in creating the tables, we set NOT  NULL for each field, hence null values are filtered out.
   
-- *Feature Engineering:* This will help us generate some new columns from existing ones.
+- **Feature Engineering:** This will help us generate some new columns from existing ones.
 2.1 Add a new column named timeofday to give insight of sales in the Morning, Afternoon and Evening. This will help answer the question on which part of the day most sales are made.
 2.2 Add a new column named dayname that contains the extracted days of the week on which the given transaction took place (Mon, Tue, Wed, Thur, Fri). This will help answer the question on which week of the day each branch is busiest.
 2.3 Add a new column named monthname that contains the extracted months of the year on which the given transaction took place (Jan, Feb, Mar). Help determine which month of the year has the most sales and profit.
 
-- *Exploratory Data Analysis (EDA):* Exploratory data analysis is done to answer the listed questions and aims of this project.
+- **Exploratory Data Analysis (EDA):** Exploratory data analysis is done to answer the listed questions and aims of this project.
 
- - *Presentation and story telling*
+ - **Presentation and story telling**
 ![Screenshot 2024-12-30 094030](https://github.com/user-attachments/assets/4aa8e6ff-d46d-48f0-8245-51797f562e0f)
 ![Screenshot 2024-12-30 094035](https://github.com/user-attachments/assets/9de32512-ab92-42d1-ad20-7b27c8cbc35e)
 ![Screenshot 2024-12-30 094040](https://github.com/user-attachments/assets/59b4f683-af22-46fe-8888-600c609f6f9d)
